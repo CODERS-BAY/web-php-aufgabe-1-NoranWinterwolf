@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: rgb(177, 147, 109);
+}
+
+h1 {
+    display: table;
+    margin: 1rem auto;
+}
+
+.bon {
+    display: table;
+    margin: auto;
+    padding: 0 3rem;
+    background-color: beige;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+}
+
+nav {
+    padding-top: 2rem;
+    height: 5rem;
+    background-color: burlywood;
+    border-bottom: 2px solid brown;
+    box-shadow: 0 2px 5px black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a{
+    padding: 1rem;
+    background-color: beige;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+    font-size: 150%;
+}
+nav ul li a:hover {
+    box-shadow: none;
+    text-decoration: none;
+}
+nav ul li a.aktuell {
+    box-shadow: none;
+    text-decoration: none;
+}
